@@ -19,7 +19,7 @@ Create a package
 Install package locally in a virtual environment 
 ------------------------------------------------
 
-* Go to the directory where package is living 
+* Go to the directory where package is stored 
 ```pip install .```
 The . tells pip to look for setup.py 
 
@@ -29,7 +29,7 @@ Upload to Pypi
 
 * Include license.txt, README and setup.cfg
 * Register on [pypi.org](https://pypi.org/) and [test.pypy.org](https://test.pypi.org/)
-* Go to the directory where package is living and execute below
+* Go to the directory where package is stored and execute below
 
 ```
 python setup.py sdist bdist_wheel
