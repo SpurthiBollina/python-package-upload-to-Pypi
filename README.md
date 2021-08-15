@@ -9,7 +9,7 @@ Create a package
 * The code inside init file gets run when the package is imported
 	to python program 
 * The package still works if init file is empty but the classes are imported more explicitly 
-``` from prob_distributions_sb.Gaussiandistribution import Gaussian ```
+ ``` from prob_distributions_sb.Gaussiandistribution import Gaussian ```
 
 * setup.py is necessary to pip install a package 
 * setup file have metadata about package 
